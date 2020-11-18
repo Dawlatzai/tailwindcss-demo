@@ -1,5 +1,5 @@
 # tailwindcss-demo
 
-# To get started, cd into this subfolder and run npm install to install the dependencies.
+<p> To get started, <code>cd</code> into this subfolder and <code>run npm install</code> to install the dependencies.</p>
 
-# Use npm run build to generate the compiled CSS, and a tool like live-server to preview the site in the browser.
+<p> Use <code>npm run build</code> to generate the compiled <code>CSS</code>, and a tool like <code>live-server</code> to preview the site in the browser.</p>
