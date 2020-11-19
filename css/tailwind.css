@@ -2,14 +2,14 @@
 @tailwind components;
 
 .btn {
-  @apply inline-block px-5 py-3 shadow-lg rounded-lg uppercase text-white text-sm tracking-wide font-semibold;
+  @apply inline-block px-5 py-3 rounded-lg uppercase tracking-wide font-semibold;
 }
 .btn:focus {
   @apply outline-none shadow-outline;
 }
 
 .btn-indigo {
-  @apply bg-indigo-500;
+  @apply bg-indigo-500 text-white;
 }
 
 .btn-indigo:hover {
@@ -30,6 +30,12 @@
 
 .btn-gray:active {
   @apply bg-gray-600;
+}
+
+@screen sm {
+  .btn {
+    @apply text-base;
+  }
 }
 
 @tailwind utilities;

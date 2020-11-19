@@ -620,13 +620,8 @@ video {
   padding-right: 1.25rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   border-radius: 0.5rem;
   text-transform: uppercase;
-  --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
-  font-size: 0.875rem;
   letter-spacing: 0.025em;
   font-weight: 600;
 }
@@ -641,6 +636,9 @@ video {
   --bg-opacity: 1;
   background-color: #667eea;
   background-color: rgba(102, 126, 234, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 .btn-indigo:hover {
@@ -671,6 +669,12 @@ video {
   --bg-opacity: 1;
   background-color: #718096;
   background-color: rgba(113, 128, 150, var(--bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .btn {
+    font-size: 1rem;
+  }
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
